@@ -1,0 +1,57 @@
+@media (max-width: 1232px) {
+    .heading-job {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 991px) {
+    .introduction {
+        grid-template-areas:
+        "about-image"
+        "about-description";
+        grid-template-columns: 1fr;
+    }
+    .introduction-description {
+        margin-top: 0;
+        padding-top: 40px;
+        padding-left: 60px;
+    }
+
+    #RyanPortrait1 {
+        max-width: 30%;
+    }
+
+    .projects-list {
+        grid-template-areas: 
+        "project1"
+        "project2"
+        "project3";
+        grid-template-columns: 1fr;
+    }
+
+    .logos {
+        max-width: 40%;
+        max-height: 40%;
+    }
+
+    .job-item {
+        grid-template-areas: 
+        "title"
+        "date";
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+        padding: 50px 10% 0px 10%;
+    }
+}
+
+@media (max-width: 697px) {
+    .heading-job {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 750px) {
+    .social-links {
+        padding-bottom: 50px;
+    }
+}
