@@ -43,7 +43,7 @@ body {
 }
 
 .heading-parallax {
-    background-image: url("/Portfolio-1/images/headingimage1.jpg");
+    background-image: url("Portfolio-1/images/headingimage1.jpg");
     min-height: 700px;
 
     background-attachment: fixed;
