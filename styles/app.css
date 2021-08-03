@@ -234,6 +234,10 @@ body {
     padding: 0px 20px;
 }
 
+.projects-list {
+    padding-bottom: 50px;
+}
+
 .projects-list a {
     color: white;
 }
@@ -261,6 +265,9 @@ body {
 
 .job-container {
     background-color: #f7e4aa;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .job-item {
@@ -298,16 +305,19 @@ body {
 
 #wave3 {
     margin-top: 0;
+    max-width: 100%;
 }
 
 .footer {
+    padding-top: 50px;
     padding-left: 10%;
+    padding-bottom: 30px;
 }
 
 .footer-introduction {
+    padding-top: 30px;
     color: #8c4646;
     font-size: 5em;
-    padding-top: 50px;
 }
 
 .footer h5 {
@@ -334,8 +344,10 @@ body {
 .social-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 60px;
 }
 
-#wave3 {
-    max-width: 100%;
+.credits {
+    margin-bottom: 0;
+    padding-right: 20px;
 }
