@@ -334,6 +334,7 @@ body {
 .social-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 80px;
 }
 
 #wave3 {
