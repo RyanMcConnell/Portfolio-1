@@ -4,7 +4,8 @@
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
+
     .introduction {
         grid-template-areas:
         "about-image"
@@ -27,11 +28,12 @@
         "project2"
         "project3";
         grid-template-columns: 1fr;
+        padding-bottom: 0;
     }
 
     .logos {
-        max-width: 40%;
-        max-height: 40%;
+        max-width: 30%;
+        max-height: 30%;
     }
 
     .job-item {
@@ -46,12 +48,9 @@
 
 @media (max-width: 697px) {
     .heading-job {
-        padding-top: 120px;
+        padding-top: 180px;
     }
-}
-
-@media (max-width: 750px) {
-    .social-links {
-        padding-bottom: 50px;
+    .heading-parallax {
+        background-image: cover;
     }
 }

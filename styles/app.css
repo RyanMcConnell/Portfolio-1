@@ -256,15 +256,19 @@ body {
     max-width: 100%;
 }
 
+.job-waves {
+    background-color: #be5b54;
+}
+
 .job-heading {
     padding: 30px;
     text-align: center;
-    color: #8c4646;
+    color: white;
     font-size: 2.5em;
 }
 
 .job-container {
-    background-color: #f7e4aa;
+    background-color: #e28067;
     max-width: 100%;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -281,20 +285,25 @@ body {
 }
 
 .job-title {
-    color: #bd5a54;
+    color: #8c4646;
     font-size: 2.5em;
     grid-area: title;
 }
 
 .job-company {
-    color: #e38068;
+    color: #bc5a54;
     grid-area: company;
 }
 
 .job-date {
-    color: #e38068;
+    color: #8c4646;
     grid-area: date;
     font-size: 1.3em;
+}
+
+.job-duties {
+    color: #f7e4aa;
+    letter-spacing: 1px;
 }
 
 .duty {
@@ -344,7 +353,7 @@ body {
 .social-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 
 .credits {
