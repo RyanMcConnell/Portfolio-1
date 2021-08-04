@@ -52,5 +52,6 @@
     }
     .heading-parallax {
         background-image: cover;
+        padding: 0px 15px 0px 15px;
     }
 }
