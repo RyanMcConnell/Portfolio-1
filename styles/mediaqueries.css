@@ -9,6 +9,12 @@
     }
 }
 
+@media (max-width: 1025px) {
+    .heading-parallax {
+        background-attachment: unset;
+    }
+}
+
 @media (max-width: 1000px) {
 
     .introduction {
@@ -26,6 +32,7 @@
 
     #RyanPortrait1 {
         max-width: 30%;
+        border: 6px solid #e38069;
     }
 }
 
@@ -90,7 +97,6 @@
 @media (max-width: 500px) {
     .heading-parallax {
         background-image: url("/Portfolio-1/images/headingimage1-small.jpg");
-        background-attachment: unset;
     }
     .heading-author {
         font-size: 5em;
