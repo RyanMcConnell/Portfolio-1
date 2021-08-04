@@ -18,6 +18,16 @@
         padding-left: 60px;
     }
 
+    .heading-author {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .heading-job {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     #RyanPortrait1 {
         max-width: 30%;
     }
@@ -46,12 +56,14 @@
     }
 }
 
-@media (max-width: 697px) {
+@media (max-width: 777px) {
     .heading-job {
         padding-top: 180px;
     }
+}
+
+@media (max-width: 697px) {
     .heading-parallax {
         background-image: cover;
-        padding: 0px 15px 0px 15px;
     }
 }
