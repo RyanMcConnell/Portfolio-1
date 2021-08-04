@@ -18,14 +18,8 @@
         padding-left: 60px;
     }
 
-    .heading-author {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .heading-job {
-        padding-left: 20px;
-        padding-right: 20px;
+    .heading {
+        max-width: 100%;
     }
 
     #RyanPortrait1 {
@@ -59,6 +53,9 @@
 @media (max-width: 777px) {
     .heading-job {
         padding-top: 180px;
+    }
+    .heading-parallax {
+        background-image: url("/Portfolio-1/images/headingimage1-small.jpg");
     }
 }
 
