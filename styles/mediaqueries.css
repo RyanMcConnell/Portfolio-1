@@ -1,10 +1,15 @@
-@media (max-width: 1232px) {
+
+
+@media (max-width: 1292px) {
     .heading-job {
-        padding-top: 80px;
+        padding-top: 120px;
+    }
+    .navbar-text {
+        display: none;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
 
     .introduction {
         grid-template-areas:
@@ -13,19 +18,18 @@
         grid-template-columns: 1fr;
     }
     .introduction-description {
+        font-size: 1em;
         margin-top: 0;
         padding-top: 40px;
         padding-left: 60px;
     }
 
-    .heading {
-        max-width: 100%;
-    }
-
     #RyanPortrait1 {
         max-width: 30%;
     }
+}
 
+@media (max-width: 800px) {
     .projects-list {
         grid-template-areas: 
         "project1"
@@ -35,32 +39,64 @@
         padding-bottom: 0;
     }
 
+    .projects-name {
+        font-size: 1em;
+    }
+
+    .project-description {
+        font-size: 0.5rem;
+    }
+
     .logos {
         max-width: 30%;
         max-height: 30%;
     }
+}
+
+@media (max-width: 900px) {
 
     .job-item {
         grid-template-areas: 
         "title"
         "date";
         grid-template-columns: 1fr;
-        padding-top: 50px;
-        padding: 50px 10% 0px 10%;
+        padding: 0px 10% 0px 10%;
+    }
+
+    .job-title {
+        font-size: 2em;
+    }
+
+    .job-duties {
+        font-size: 0.8rem;
+    }
+    .job-date {
+        font-size: 0.9rem;
+    }
+    .footer-introduction {
+        font-size: 4em;
+    }
+    .social-links {
+        font-size: 0.7em;
+    }
+    .footer {
+        padding-left: 10px;
+    }
+    .skills-list {
+        font-size: 1em;
     }
 }
 
-@media (max-width: 777px) {
-    .heading-job {
-        padding-top: 180px;
-    }
+@media (max-width: 500px) {
     .heading-parallax {
         background-image: url("/Portfolio-1/images/headingimage1-small.jpg");
     }
-}
-
-@media (max-width: 697px) {
-    .heading-parallax {
-        background-image: cover;
+    .heading-author {
+        font-size: 5em;
+        top: 300px;
+    }
+    .heading-job {
+        font-size: 2em;
+        top: 430px;
     }
 }
